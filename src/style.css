@@ -1,0 +1,81 @@
+
+h1 {
+    margin-bottom: 40px;
+    margin-left: 40%;
+}
+
+.keyboard {
+    border: 1px solid slategray;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+    width: 820px;
+    margin-left: 20%;
+    user-select: none; 
+}
+
+.line::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.key {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid slategray;
+    border-radius: 4px;
+    margin: 3px;
+    padding: 4px;
+    text-align: center;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.key:hover{
+    color: #fff;
+    background: slategray;
+    cursor: pointer;
+}
+
+.backspace {
+    width: 76px;
+}
+.tab, .capslock {
+    width: 60px;
+}
+.lshift {
+    width: 72px;
+}
+.rshift {
+    width: 98px;
+}
+.lctrl, .rctrl {
+    width: 100px;
+}
+.space {
+    width: 290px;
+}
+.window {
+    width: 25px;
+    padding-top: 5px;
+}
+.letter-key {
+    font-size: 10px;
+}
+.enter {
+    position: absolute;
+    right: 5px;
+    top: 61px;
+    width: 56px;
+    height: 97px;
+}
+.inpt{
+    width: 820px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    border: 1px solid black;
+    padding: 10px;
+
+}
