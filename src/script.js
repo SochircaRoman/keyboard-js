@@ -129,3 +129,46 @@ document.getElementById('36').onclick = function () {
 document.getElementById('37').onclick = function () {
     document.querySelector('.inpt').textContent += "|";
 }
+
+//LINE 3
+document.getElementById('38').onclick = function () {
+    document.querySelector('.inpt').textContent += "z";
+}
+document.getElementById('39').onclick = function () {
+    document.querySelector('.inpt').textContent += "x";
+}
+document.getElementById('40').onclick = function () {
+    document.querySelector('.inpt').textContent += "c";
+}
+document.getElementById('41').onclick = function () {
+    document.querySelector('.inpt').textContent += "v";
+}
+document.getElementById('42').onclick = function () {
+    document.querySelector('.inpt').textContent += "b";
+}
+document.getElementById('43').onclick = function () {
+    document.querySelector('.inpt').textContent += "n";
+}
+document.getElementById('44').onclick = function () {
+    document.querySelector('.inpt').textContent += "m";
+}
+document.getElementById('45').onclick = function () {
+    document.querySelector('.inpt').textContent += ",";
+}
+document.getElementById('46').onclick = function () {
+    document.querySelector('.inpt').textContent += ".";
+}
+document.getElementById('47').onclick = function () {
+    document.querySelector('.inpt').textContent += "/";
+}
+document.getElementById('del').onclick = function () {
+    document.querySelector('.inpt').textContent = "";
+}
+
+//LINE 4
+document.getElementById('space').onclick = function () {
+    document.querySelector('.inpt').textContent += " ";
+}
+document.getElementById('enter').onclick = function () {
+    document.querySelector('.inpt').textContent += "";
+}
